@@ -1,0 +1,2 @@
+import { GrantList, PageIntro } from "@/components/Site";
+export default function GrantsPage() { return <><PageIntro eyebrow="RESEARCH & INNOVATION" title="Current grants" copy="Explore the research projects and grants shaping our chapter’s work."/><section className="directory-section grants-directory"><div className="container"><GrantList/><div className="grant-footnote"><span>RESEARCH IS A TEAM SPORT.</span><span>DISCOVER · COLLABORATE · BUILD</span></div></div></section></>; }
